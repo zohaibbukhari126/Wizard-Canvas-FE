@@ -1,0 +1,39 @@
+@keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  .animate-float {
+    animation: float linear infinite;
+  }
+  
+  .canvas-container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .control-panel {
+    transition: all 0.3s ease;
+  }
+  
+  .control-panel:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+  
+  .latex-content {
+    transition: all 0.3s ease;
+  }
+  
+  .latex-content:hover {
+    transform: scale(1.05);
+  }
+  
+  
